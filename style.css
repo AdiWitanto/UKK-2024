@@ -116,17 +116,19 @@ header h2 {
    background-color: #525252;
    color: white;
    justify-content: space-around;
-   padding: 40px;
+   padding: 40px 0 0 40px;
    font-size: 0.75rem;
 }
 
 .product-list {
-   display: inline-block;
+   display: flex;
+   flex-wrap: wrap;
    text-align: center;
-   justify-content: space-between;
+   justify-content: space-around;
    font-size: 0.5;
    margin: 20px;
    max-width: 300px;
+   padding:40px 0;
 }
 
 .product-img {
